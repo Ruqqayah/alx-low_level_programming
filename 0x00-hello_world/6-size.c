@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - C program that prints the size of various data types
+ * main - C program that prints the sizes of data types
  *
  * Return: 0
 */
@@ -12,10 +12,10 @@ int main(void)
 	long long int d;
 	float e;
 
-	printf("size of char is %d bytes" a);
-	printf("size of int is %d bytes" b);
-	printf("size of long int is %d bytes" c);
-	printf("size of long long int is %d bytes" d);
-	printf("size of float is %d bytes" e);
+	printf("Size of a char: %lu byte(s)", a);
+	printf("Size of a int: %lu byte(s)", b);
+	printf("Size of a long int: %lu byte(s)", c);
+	printf("Size of a long long int: %lu byte(s)", d);
+	printf("Size of a float: %lu byte(s)", e);
 	return (0);
 }
