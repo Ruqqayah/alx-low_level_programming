@@ -1,10 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 /**
  * main - Assign random number to variable n and print if positive or negative.
  *
  * Return: 0
 */
+
 int main(void)
 {
 	int n;
