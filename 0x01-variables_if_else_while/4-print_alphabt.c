@@ -17,7 +17,7 @@ int main(void)
 	for (alpha = 'a'; alpha = 'z'; alpha++)
 
 	{
-		if (low != alphe && low != alphq)
+		if (alpha != alphe && alpha != alphq)
 			putchar(alpha);
 	}
 	putchar('\n');
