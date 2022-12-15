@@ -4,6 +4,7 @@
  * main - Finds and prints the first 98 Fibonacci numbers
  * Return: 0
  */
+
 int main(void)
 {
 	long int a, b, c, i;
@@ -23,4 +24,5 @@ int main(void)
 		if (c < 5035488507601418376)
 			printf(", ");
 	}
+	return (0);
 }
