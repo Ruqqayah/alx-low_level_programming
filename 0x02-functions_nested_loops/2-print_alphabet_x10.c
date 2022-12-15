@@ -7,7 +7,6 @@
 void print_alphabet_x10(void)
 {
 	int tentimes = 0;
-	char alpha = 'a';
 
 	while
 		(tentimes < 10)
@@ -22,7 +21,7 @@ void print_alphabet_x10(void)
 			alpha++;
 		}
 
-		_puchar(tentimes);
+		_putchar(tentimes);
 		tentimes++;
 
 		_putchar('\n');
