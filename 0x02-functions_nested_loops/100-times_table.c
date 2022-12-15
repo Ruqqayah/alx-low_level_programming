@@ -15,19 +15,21 @@ void print_times_table(int n)
 		{
 			_putchar('0');
 			for (j = 1; j <= n; j++)
-				putformat(i * j);
+				_putchar(i * j);
 			_putchar('\n');
 		}
 	}
 }
 
 /**
- * putformat - formatted characters to output
+ * putformat - Formatted characters to output
  * @n: number to format
- * Return: nothing
+ * Return: 0
  */
+
 void putformat(int n)
 {
+
 	if (n <= 9)
 	{
 		_putchar(',');
