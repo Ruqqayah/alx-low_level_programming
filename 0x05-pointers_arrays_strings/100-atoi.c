@@ -31,4 +31,4 @@ int _atoi(char *s)
 		total = (-total);
 
 	return (total);
-
+}
