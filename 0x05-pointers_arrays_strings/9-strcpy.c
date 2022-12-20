@@ -1,5 +1,4 @@
 #include "main.h"
-#include <studio>
 
 /**
  * _strcpy - a function that copies the string pointed to by src,
