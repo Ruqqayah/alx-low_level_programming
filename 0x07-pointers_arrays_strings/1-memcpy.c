@@ -1,23 +1,21 @@
-#include "maih.h"
+#include "main.h"
 
 /**
- * _memcpy - A function with 3 arguments
- * @dest: char type pointer 1st argument
- * @src: char type pointer 2nd argument
- * @n: unsigned int type 3rd argument
- *
- * Description: copies memory area
- * Return: dest
+ * _memcpy - A function that copys memory area
+ * @dest: memory area destination to copy
+ * @src: memory area source to copy from
+ * @n: number of bytes
+ * Return: returns pointer to copy location
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	unsigned int i;
+	char *start = dest;
 
-	i = 0;
-	while (i < n)
+	while (n--)
 	{
-		dest[i] = src[i];
-		i++;
+		*dest = *src;
+		src++;
+		dest++;
 	}
-	return (dest);
+	return (start);
 }
